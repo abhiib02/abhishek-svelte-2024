@@ -115,7 +115,7 @@
 </script>
 
 <canvas></canvas>
-{#if $page.url.pathname == "/"}
+{#if $page.url.pathname != "/work/"}
     <nav>
         <ul>
             <li><a href="#home" class="nav-link">HOME</a></li>
