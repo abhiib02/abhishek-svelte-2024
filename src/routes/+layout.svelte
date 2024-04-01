@@ -118,6 +118,17 @@
 {#if $page.url.pathname != "/work/"}
     <nav>
         <ul>
+            <li><a href="/#home" class="nav-link">HOME</a></li>
+            <li><a href="/#work" class="nav-link">WORK</a></li>
+            <li><a href="/#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="/#about" class="nav-link">ABOUT</a></li>
+            <li><a href="/#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+    </nav>
+{/if}
+{#if $page.url.pathname == "/"}
+    <nav>
+        <ul>
             <li><a href="#home" class="nav-link">HOME</a></li>
             <li><a href="#work" class="nav-link">WORK</a></li>
             <li><a href="#skills" class="nav-link">SKILLS</a></li>
