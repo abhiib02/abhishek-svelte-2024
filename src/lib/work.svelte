@@ -24,7 +24,7 @@
                             src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Project.Link}&size=64"
                             alt=""
                             class="blended"
-                            width="64px"
+                            width="32"
                         />
                     </div>
                     <div
@@ -32,8 +32,8 @@
                         style="padding: var(--small-gap);"
                     >
                         <p>{Project.Name}</p>
-                        <div class="flex">
-                            <div
+                        <!--<div class="flex">
+                             <div
                                 class="status {Project.Status == 'Online'
                                     ? 'success'
                                     : 'danger'}"
@@ -42,7 +42,7 @@
                             {Project.Status == "Online" ? "Online" : "Offline"}
                             •&nbsp;
                             {Project.Published}
-                        </div>
+                        </div>-->
                     </div>
                 </a>
             {/if}
@@ -78,9 +78,10 @@
         flex-wrap: wrap;
         gap: var(--small-gap);
         position: relative;
+        align-content: baseline;
     }
     .project {
-        width: 20%;
+        height: min-content;
         flex-grow: 1;
         transition: all 0.3s;
         &:hover {
