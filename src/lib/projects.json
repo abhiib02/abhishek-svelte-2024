@@ -1,0 +1,552 @@
+[
+   {
+      "Name": "Caravan In Delhi",
+      "Type": "A Caravan hire Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Caravan hire Website where customer will contact and send query to hire caravan",
+      "Image": "http://caravanindelhi.com/capture.webp",
+      "Link": "http://caravanindelhi.com/",
+      "Status": "Online",
+      "Published": "Mar 2024",
+      "Info": ""
+   },
+   {
+      "Name": "Dogra Human Helping Foundation",
+      "Type": "NGO Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A NGO Website with Payment Gateway Integration and Generated certificate authenticity checker",
+      "Image": "https://dograhumanhelpingfoundation.com/screenshot.webp",
+      "Link": "https://dograhumanhelpingfoundation.com/",
+      "Status": "Online",
+      "Published": "Feb 2024",
+      "Info": ""
+   },
+   {
+      "Name": "On Toez Beverages",
+      "Type": "Energy Drinks Ecommerce Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Desc": "A Ecommerce Website for Energy Drinks Product Manufacturer",
+      "Image": "https://ontoez.com/screenshot.webp",
+      "Link": "https://ontoez.com/",
+      "Status": "Online",
+      "Published": "Feb 2024",
+      "Info": ""
+   },
+   {
+      "Name": "Select Solar & Electronics",
+      "Type": "Solar Panel Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Solar Panel Company Based in New South Wales,Ausralia",
+      "Image": "https://i.ibb.co/khtPGF3/Caspture.webp",
+      "Link": "https://selectse.com.au/",
+      "Status": "Online",
+      "Published": "Oct 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Deploy OPTIQIQ",
+      "Type": "Career Consulting Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Career Consulting Company Based in Hyderabad",
+      "Image": "https://i.ibb.co/KGwFz6t/deployiq.webp",
+      "Link": "https://deployoptiqiq.in/",
+      "Status": "Online",
+      "Published": "Oct 2023",
+      "Info": ""
+   },
+   {
+      "Name": "GB GROUP",
+      "Type": "Multi Industry Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "Multi Industry Company",
+      "Image": "https://i.ibb.co/qrb1CKy/image.webp",
+      "Link": "https://gbgroup.com.in/",
+      "Status": "Online",
+      "Published": "Sep 2023"
+   },
+   {
+      "Name": "Yuva Kaushal Vikas Mandal",
+      "Type": "NGO Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci",
+         "wordpress"
+      ],
+      "Desc": "A NGO Website with Employee and worker Dashboard With ID Card Generation",
+      "Image": "https://i.ibb.co/GW80h0G/image.png",
+      "Link": "https://ykvm.org.in/",
+      "Status": "Online",
+      "Published": "Sep 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Boss Auto Hire",
+      "Type": "Car Rental Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A car rental service company Based in Australia",
+      "Image": "https://i.ibb.co/mN89xf2/image.png",
+      "Link": "https://bossautohire.com.au/",
+      "Status": "Online",
+      "Published": "Sep 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Nxtway digital Studio",
+      "Type": "Digital Marketing Agency Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "Digital Marketing Company Subsidery of Nxtwaystartup ",
+      "Image": "https://i.ibb.co/5TCkNtG/image.png",
+      "Link": "https://nxtway.in/",
+      "Status": "Online",
+      "Published": "Aug 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Wyrobo",
+      "Type": "STEAM Kids Teaching Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A STEAM learning company for kids ",
+      "Image": "https://i.ibb.co/KjxGMR3/image.png",
+      "Link": "https://wyrobo.com/",
+      "Status": "Online",
+      "Published": "Aug 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Cocoo Craft",
+      "Type": "Events Planning and Production Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Events Planning and Production Company",
+      "Image": "https://i.ibb.co/sQyV9L1/image.png",
+      "Link": "https://cocoocraft.com/",
+      "Status": "Online",
+      "Published": "Jul 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Gauragya Ayurvedic",
+      "Type": "Ayurvedic goods Manufacturer and Seller ",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Desc": "A Ayurvedic goods Manufacturer and Seller Company",
+      "Image": "https://i.ibb.co/KDtsqrp/image.png",
+      "Link": "https://gauragyaayurvedic.com/",
+      "Status": "Online",
+      "Published": "Jun 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Yog Shiva",
+      "Type": "A Weed & Marijuana Product manufacturer",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Desc": "A Ecommerce Website for Weed & Marijuana Product manufacturer ",
+      "Image": "https://i.ibb.co/7g0Nrc1/image.png",
+      "Link": "https://yogiik.com",
+      "Status": "Online",
+      "Published": "May 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Singh And Singh",
+      "Type": "Property Dealer Website",
+      "Tech": [
+         "html",
+         "css",
+         "js"
+      ],
+      "Desc": "A Website for Property Dealer who deal in property through out Delhi NCR",
+      "Image": "https://i.ibb.co/qyrh2QS/image.png",
+      "Link": "https://singhnsingh.com/",
+      "Status": "Online",
+      "Published": "May 2023",
+      "Info": ""
+   },
+   {
+      "Name": "NXTWAY startup",
+      "Type": "A Website for compliance issues that small businesses and startups face",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Desc": "A Website for compliance issues that small businesses and startups face",
+      "Image": "https://i.ibb.co/4Wvdc5G/image.png",
+      "Link": "https://nxtwaystartup.com/",
+      "Status": "Online",
+      "Published": "Apr 2023",
+      "Info": ""
+   },
+   {
+      "Name": "Voyagersbeat",
+      "Type": "Travel Agency Website for customized Packages and Booking",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Desc": "Travel Agency Website for customized Packages and Booking",
+      "Image": "https://i.ibb.co/cCz2XNC/image.png",
+      "Link": "https://voyagersbeat.com",
+      "Status": "Online",
+      "Published": "Mar 2019",
+      "Info": "Currently Working",
+      "Github": "https://github.com/abhiib02/Voyagersbeat"
+   },
+   {
+      "Name": "Youtube Thumbnail Downloader",
+      "Type": "Browser Extension",
+      "Tech": [
+         "js"
+      ],
+      "Desc": "A Youtube Thumbnail Downloader used by youtuber",
+      "Image": "ytd.png",
+      "Link": "https://microsoftedge.microsoft.com/addons/detail/hero-thumb-downloader/eionhgcppdmoemnmfgegpkdggipbfank",
+      "Status": "Online",
+      "Published": "Sep 2022",
+      "Github": "https://github.com/abhiib02/HeroThumbDownloader"
+   },
+   {
+      "Name": "Exhaustbaba",
+      "Type": "Bike Exhaust and Silencer Trader",
+      "Tech": [
+         "html",
+         "css",
+         "vuejs"
+      ],
+      "Image": "eb.png",
+      "Link": "https://exhaust-baba.netlify.app/",
+      "Status": "Offline",
+      "Published": "Jun 2022",
+      "Github": "https://github.com/abhiib02/exhaust-baba"
+   },
+   {
+      "Name": "Elliot Waves",
+      "Type": "Investment and Trading Tool",
+      "Tech": [
+         "html",
+         "css",
+         "js"
+      ],
+      "Image": "ewc.png",
+      "Link": "https://abhiib02.github.io/elliot_wave_calc/",
+      "Status": "Online",
+      "Published": "Dec 2021",
+      "Github": "https://github.com/abhiib02/elliot_wave_calc"
+   },
+   {
+      "Name": "Daikichi Service",
+      "Type": "Consultancy for india and japan",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "daikichi.png",
+      "Link": "https://daikichiconsulting.com/",
+      "Status": "Online",
+      "Published": "Jan 2021"
+   },
+   {
+      "Name": "Laxmicart.com",
+      "Type": "Online Book Seller E-Commerce",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Image": "laxmi.png",
+      "Link": "https://laxmicart.com/",
+      "Status": "Offline",
+      "Published": "Jan 2021"
+   },
+   {
+      "Name": "Woolman",
+      "Type": "Textile Machinery Distributor Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "woolman.jpg",
+      "Link": "https://woolman.in",
+      "Status": "Offline",
+      "Published": "Nov 2020"
+   },
+   {
+      "Name": "TicTacToe",
+      "Type": "Vue Web App (Personal Side Project)",
+      "Tech": [
+         "html",
+         "css",
+         "vuejs"
+      ],
+      "Image": "tictactoe.png",
+      "Link": "https://csb-gm3zpl.netlify.app/",
+      "Status": "Online",
+      "Published": "Nov 2020",
+      "Github": "https://github.com/abhiib02/Tic_Tac_Toe"
+   },
+   {
+      "Name": "Polar Autos",
+      "Type": "Seating manufacturing company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "polarauto.png",
+      "Link": "https://polarauto.in",
+      "Status": "Offline",
+      "Published": "Oct 2020"
+   },
+   {
+      "Name": "Sachin Pack",
+      "Type": "Android App",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "vuejs"
+      ],
+      "Image": "splogo.png",
+      "Link": "",
+      "Status": "Offline",
+      "Published": "May 2020"
+   },
+   {
+      "Name": "Bhardwaj Netlify",
+      "Type": "Old PortFolio",
+      "Tech": [
+         "html",
+         "css",
+         "vuejs"
+      ],
+      "Image": "oldportfolio.png",
+      "Link": "https://bhardwaj-old.netlify.app/#/",
+      "Status": "Online",
+      "Published": "Nov 2019",
+      "Github": "https://github.com/abhiib02/vue"
+   },
+   {
+      "Name": "gangmy.design",
+      "Type": "Graphic Designer Portfolio Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "gang.jpg",
+      "Link": "http://gangmy.design/",
+      "Status": "Offline",
+      "Published": "Oct 2019"
+   },
+   {
+      "Name": "unitedchemical",
+      "Type": "Chemicle Business Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js"
+      ],
+      "Image": "uci.jpg",
+      "Link": "http://unitedchemical.in/",
+      "Status": "Online",
+      "Published": "Oct 2019"
+   },
+   {
+      "Name": "madanfashion",
+      "Type": "A Clothing Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php",
+         "wordpress"
+      ],
+      "Image": "mf.jpg",
+      "Link": "http://madanfashion.in/",
+      "Status": "Offline",
+      "Published": "Sep 2019"
+   },
+   {
+      "Name": "Victory World",
+      "Type": "Travel Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "vwt.jpg",
+      "Link": "http://vwt.epizy.com",
+      "Status": "Offline",
+      "Published": "Sep 2019",
+      "Github": "https://github.com/abhiib02/Victoryworldtourism"
+   },
+   {
+      "Name": "woodcraft",
+      "Type": "Interior Designing Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "wci.jpg",
+      "Link": "https://www.woodcraftint.com/",
+      "Status": "Online",
+      "Published": "May 2019"
+   },
+   {
+      "Name": "gybindia",
+      "Type": "Business Consultation Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "gyb.jpg",
+      "Link": "https://sitesdemo.netlify.app/gyb/",
+      "Status": "Online",
+      "Published": "May 2019",
+      "Github": "https://github.com/abhiib02/demo_sites/tree/master/gyb"
+   },
+   {
+      "Name": "backstage",
+      "Type": "Modeling and photography Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "bsm.jpg",
+      "Link": "https://sitesdemo.netlify.app/backstage/",
+      "Status": "Online",
+      "Published": "April 2019",
+      "Github": "https://github.com/abhiib02/demo_sites/tree/master/backstage"
+   },
+   {
+      "Name": "dexo.media",
+      "Type": "Digital Marketing Agency Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "dexo.jpg",
+      "Link": "http://www.dexo.media/",
+      "Status": "Offline",
+      "Published": "April 2019"
+   },
+   {
+      "Name": "petitepebble",
+      "Type": "Business Consultation Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "php"
+      ],
+      "Image": "pp.jpg",
+      "Link": "http://www.petitepebble.com/",
+      "Status": "Offline",
+      "Published": "Dec 2018"
+   },
+   {
+      "Name": "scc-education",
+      "Type": "A Tutor Company Website",
+      "Tech": [
+         "html",
+         "css",
+         "blogger"
+      ],
+      "Image": "scc.jpg",
+      "Link": "https://www.scc-education.com/",
+      "Status": "Offline",
+      "Published": "Jun 2015"
+   },
+   {
+      "Name": "dynamohack",
+      "Type": "My Old Tips and Tricks Blog",
+      "Tech": [
+         "html",
+         "css",
+         "blogger"
+      ],
+      "Image": "dynamo.jpg",
+      "Link": "https://dynamohack.blogspot.com/",
+      "Status": "Online",
+      "Published": "Aug 2013"
+   }
+]

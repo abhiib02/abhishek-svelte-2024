@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+	<script type="module">
+		import Lenis from "https://cdn.skypack.dev/@studio-freight/lenis@0.1.12";
+		const lenis = new Lenis({
+		smooth: true,
+		direction: "vertical"
+		});
+		window.lenis = lenis;
+
+		//get scroll value
+		// lenis.on("scroll", ({ scroll, limit }) => {
+		//   console.log({ scroll, limit });
+		// });
+
+		function raf() {
+		lenis.raf();
+		requestAnimationFrame(raf);
+		}
+
+		requestAnimationFrame(raf);
+		
+		
+
+		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+		
+        anchor.addEventListener("click", function (e) {
+
+            e.preventDefault();
+            lenis.scrollTo(this.getAttribute("href"));
+        });
+	})
+	</script>
+	
+</html>

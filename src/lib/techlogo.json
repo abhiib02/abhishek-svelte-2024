@@ -1,0 +1,20 @@
+[
+    {"image": "html.svg", "name": "HTML"},
+    {"image": "css.svg", "name": "CSS"},
+    {"image": "scss.svg", "name": "SCSS"},
+    {"image": "bootstrap.svg", "name": "Bootstrap"},
+    {"image": "bulma.svg", "name": "Bulma"},
+    {"image": "materialize.svg", "name": "Materialize"},
+    {"image": "js.svg", "name": "JavaScript"},
+    {"image": "jquery.svg", "name": "jQuery"},
+    {"image": "svelte.svg", "name": "Svelte"},
+    {"image": "figma.svg", "name": "Figma"},
+    {"image": "php.svg", "name": "PHP"},
+    {"image": "ci.svg", "name": "CodeIgniter"},
+    {"image": "laravel.svg", "name": "Laravel"},
+    {"image": "mysql.svg", "name": "MySQL"},
+    {"image": "cpanel.svg", "name": "cPanel"},
+    {"image": "wordpress.svg", "name": "Wordpress"},
+    {"image": "vuejs.svg", "name": "Vue"},
+    {"image": "blogger.svg", "name": "Blogger"}
+]
