@@ -41,24 +41,10 @@
             />
         </div>
     </div>
-    <button class="card form-submit btn-bg grid-center">
+    <button class="card form-submit btn-bg grid-center bg-theme">
         <div class="heading">Submit</div>
     </button>
-    <div class="card Footer grid-center">
-        <div class="heading">
-            Made With 💓 using <img
-                src="/icons/svelte.svg"
-                width="32px"
-                alt=""
-            />
-        </div>
-    </div>
-    <div class="card Contact-desc grid-center">
-        <div style="text-align:center;">
-            <div class="heading">Lets Get in Touch</div>
-            <div class="desc">I am always open to make new friends</div>
-        </div>
-    </div>
+
     <a
         target="_blank"
         href="https://github.com/abhiib02"
@@ -97,6 +83,21 @@
     <a target="_blank" href="" class="card resume grid-center box-icon">
         <img src="../icons/resume.svg" alt="" class="icon" />
     </a>
+    <div class="card Contact-desc grid-center">
+        <div style="text-align:center;">
+            <div class="heading">Lets Get in Touch</div>
+            <div class="desc">I am always open to make new friends</div>
+        </div>
+    </div>
+    <div class="card Footer grid-center">
+        <div class="heading">
+            Made With 💓 using <img
+                src="/icons/svelte.svg"
+                width="32px"
+                alt=""
+            />
+        </div>
+    </div>
 </form>
 
 <style>
@@ -115,8 +116,16 @@
             "Contact Contact Contact-desc Contact-desc Contact-desc Contact-desc Contact-desc Contact-desc form-submit form-submit form-submit form-submit"
             "Contact Contact github github codepen codepen linkedin linkedin Footer Footer Footer Footer"
             "Contact Contact twitter twitter insta insta resume resume Footer Footer Footer Footer";
+        @media (width < 992px) {
+            display: flex;
+            flex-direction: column;
+        }
     }
-
+    .box-icon {
+        @media (width < 992px) {
+            display: none;
+        }
+    }
     .Contact {
         grid-area: Contact;
     }
@@ -172,5 +181,11 @@
         border: 1px solid var(--theme-color);
         border-radius: var(--in2-brd-rad);
         padding-left: var(--main-padding);
+        @media (width < 992px) {
+            height: auto;
+        }
+    }
+    .desc {
+        font-size: 1rem;
     }
 </style>

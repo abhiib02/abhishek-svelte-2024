@@ -47,7 +47,7 @@
         border-radius: var(--in-brd-rad);
         border: 1px solid var(--border-color);
         color: #fff;
-        aspect-ratio: 143/100;
+        /*aspect-ratio: 143/100;*/
         width: 298px;
         transition: all 0.3s;
         overflow: hidden;

@@ -113,6 +113,10 @@
             "skill skill skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2"
             "skill skill skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3"
             "skill skill skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3";
+        @media (width < 992px) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .skill {

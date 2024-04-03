@@ -51,6 +51,10 @@
             "About About About-details About-details About-details About-details About-details About-image About-image About-image About-image About-image"
             "About About About-desc About-desc About-desc About-desc About-desc About-image About-image About-image About-image About-image"
             "About About About-desc About-desc About-desc About-desc About-desc About-image About-image About-image About-image About-image";
+        @media (width < 992px) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .About {
@@ -63,6 +67,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: right bottom;
+        @media (width < 992px) {
+            aspect-ratio: 1/1;
+        }
     }
 
     .About-details {

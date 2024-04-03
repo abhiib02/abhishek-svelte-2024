@@ -162,6 +162,7 @@
         nav {
             bottom: 0rem;
             width: 100%;
+            height: 40px;
         }
         nav ul {
             display: flex;

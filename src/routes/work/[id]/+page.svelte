@@ -43,7 +43,7 @@
                 : 'container-no-github'}"
         >
             <div class="card Project-icon">
-                <div class="grid-center square-by-height">
+                <div class="grid-center">
                     <img
                         src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Projects[
                             index
@@ -54,22 +54,6 @@
                     />
                 </div>
             </div>
-            <a
-                class="card Project-link grid-center box-icon"
-                target="_blank"
-                href={Projects[index].Link}
-            >
-                <img class="invert icon" src="/icons/link.svg" alt="" />
-            </a>
-            {#if Projects[index].Github}
-                <a
-                    target="_blank"
-                    href={Projects[index].Github}
-                    class="card Github-link grid-center box-icon"
-                >
-                    <img src="/icons/github.svg" alt="" class="icon" /></a
-                >
-            {/if}
             <div class="card Project-name">
                 <h1 class="heading">
                     {Projects[index].Name}
@@ -92,6 +76,24 @@
                     />
                 {/if}
             </div>
+
+            <a
+                class="card Project-link grid-center box-icon"
+                target="_blank"
+                href={Projects[index].Link}
+            >
+                <img class="invert icon" src="/icons/link.svg" alt="" />
+            </a>
+            {#if Projects[index].Github}
+                <a
+                    target="_blank"
+                    href={Projects[index].Github}
+                    class="card Github-link grid-center box-icon"
+                >
+                    <img src="/icons/github.svg" alt="" class="icon" /></a
+                >
+            {/if}
+
             <div class="card Project-details">
                 <div class="box-wrapper-start">
                     {#each Projects[index].Tech as techItem}
@@ -137,6 +139,10 @@
         gap: var(--gap);
         height: 100%;
         grid-auto-flow: row;
+        @media (width < 992px) {
+            display: flex;
+            flex-direction: column;
+        }
     }
     .container-github {
         grid-template-areas:
@@ -177,10 +183,16 @@
     .Project-details {
         position: relative;
         grid-area: Project-details;
+        @media (width < 992px) {
+            aspect-ratio: 2 / 1;
+        }
     }
 
     .Project-desc {
         grid-area: Project-desc;
+        @media (width < 992px) {
+            display: none;
+        }
     }
     .Project-icon {
         grid-area: Project-icon;
@@ -223,6 +235,7 @@
         nav {
             bottom: 0rem;
             width: 100%;
+            height: 40px;
         }
         nav ul {
             display: flex;

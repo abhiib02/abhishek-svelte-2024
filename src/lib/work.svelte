@@ -23,11 +23,12 @@
                         <img
                             src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Project.Link}&size=64"
                             alt=""
-                            class="blended"
+                            class="drop-shadow"
                             width="32"
                         />
                     </div>
                     <div
+                        id="workname"
                         class="flex-col-between"
                         style="padding: var(--small-gap);"
                     >
@@ -59,6 +60,7 @@
         grid-auto-columns: 1fr;
         gap: var(--gap);
         grid-auto-flow: row;
+
         grid-template-areas:
             "work work projects projects projects projects projects projects projects projects projects projects"
             "work work projects projects projects projects projects projects projects projects projects projects"
@@ -66,6 +68,10 @@
             "work work projects projects projects projects projects projects projects projects projects projects"
             "work work projects projects projects projects projects projects projects projects projects projects"
             "work work projects projects projects projects projects projects projects projects projects projects";
+        @media (width < 992px) {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .work {
@@ -82,15 +88,14 @@
     }
     .project {
         height: min-content;
-        flex-grow: 1;
         transition: all 0.3s;
         &:hover {
             border: 1px solid var(--theme-color);
         }
+    }
+    #workname {
         @media (width < 992px) {
-            & {
-                width: 100%;
-            }
+            display: none;
         }
     }
     a {
