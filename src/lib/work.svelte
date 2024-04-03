@@ -11,29 +11,40 @@
         </div>
         <div class="heading">MY WORK</div>
     </div>
+
     <div class="projects">
         {#each Projects as Project, index}
             {#if Project.Status == "Online"}
                 <a
                     href="/work/{index}"
-                    class="card project flex"
+                    class="card project grid-center"
                     style="--url:url('{Project.Image}');--delay:{index}"
                 >
-                    <div class="grid-center square-by-height">
+                    <div class="grid-center">
                         <img
                             src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Project.Link}&size=64"
                             alt=""
                             class="drop-shadow"
                             width="32"
                         />
+
+                        <p id="workname">
+                            <br />{Project.Name.toLowerCase()}
+                        </p>
                     </div>
-                    <div
+
+                    <!--
+                        
+                       
+                    <p>{Project.Name}</p>
+                        <div
                         id="workname"
                         class="flex-col-between"
                         style="padding: var(--small-gap);"
                     >
-                        <p>{Project.Name}</p>
-                        <!--<div class="flex">
+                       
+                             <p>{Project.Name}</p>
+                            <div class="flex">
                              <div
                                 class="status {Project.Status == 'Online'
                                     ? 'success'
@@ -43,8 +54,8 @@
                             {Project.Status == "Online" ? "Online" : "Offline"}
                             •&nbsp;
                             {Project.Published}
-                        </div>-->
-                    </div>
+                        </div>
+                    </div>-->
                 </a>
             {/if}
         {/each}
@@ -79,21 +90,26 @@
     }
 
     .projects {
+        width: 100%;
         grid-area: projects;
         display: flex;
         flex-wrap: wrap;
         gap: var(--small-gap);
         position: relative;
-        align-content: baseline;
     }
     .project {
-        height: min-content;
+        flex-grow: 1;
+        font-size: 1rem;
         transition: all 0.3s;
+
         &:hover {
-            border: 1px solid var(--theme-color);
+            background-color: var(--theme-color);
+            color: #000;
+            font-weight: bold;
         }
     }
     #workname {
+        text-transform: capitalize;
         @media (width < 992px) {
             display: none;
         }

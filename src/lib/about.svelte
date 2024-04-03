@@ -5,11 +5,7 @@
         </div>
         <div class="heading">ABOUT ME</div>
     </div>
-    <div class="card About-details grid-center hue-rotate">
-        <img src="/icons/logo.svg" width="50%" alt="" />
-    </div>
-    <div class="card About-image"></div>
-    <div class="card About-desc flex-col-between">
+    <div class="card About-details flex-col-between">
         <div class="heading">Hello,</div>
         <div style="">
             <p class="desc">
@@ -33,6 +29,29 @@
             </p>
         </div>
     </div>
+    <div class="card About-desc hue-rotate flex-col-between">
+        <div class="heading">ABOUT PORTFOLIO</div>
+        <div class="desc">
+            I have made this portfolio for year 2024 . i have used
+            <span class="text-theme bold hue-rotate" style="--delay:5000;"
+                >bento grid design</span
+            >
+            and
+            <span class="text-theme bold hue-rotate" style="--delay:6000;"
+                >scroll panel effect</span
+            >
+            for this portfolio to keep up with the trend as
+            <span class="text-theme bold hue-rotate" style="--delay:7000;"
+                >2024</span
+            >
+            started , i have seen lots of new designs emerged in 2024 and
+            <span class="text-theme bold hue-rotate" style="--delay:7000;"
+                >the most dominant design</span
+            > among all design is bento grid and that is why i used this design to
+            make my portfolio for 2024.
+        </div>
+    </div>
+    <div class="card About-image"></div>
 </div>
 
 <style>
@@ -48,7 +67,7 @@
             "About About About-details About-details About-details About-details About-details About-image About-image About-image About-image About-image"
             "About About About-details About-details About-details About-details About-details About-image About-image About-image About-image About-image"
             "About About About-details About-details About-details About-details About-details About-image About-image About-image About-image About-image"
-            "About About About-details About-details About-details About-details About-details About-image About-image About-image About-image About-image"
+            "About About About-desc About-desc About-desc About-desc About-desc About-image About-image About-image About-image About-image"
             "About About About-desc About-desc About-desc About-desc About-desc About-image About-image About-image About-image About-image"
             "About About About-desc About-desc About-desc About-desc About-desc About-image About-image About-image About-image About-image";
         @media (width < 992px) {

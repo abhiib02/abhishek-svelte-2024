@@ -62,7 +62,7 @@
         </div>
         <div class="heading">MY SKILLS</div>
     </div>
-    <div class="card skills-1">
+    <div class="card skills-1 flex-col-between">
         <div class="heading">FRONT END</div>
         <br />
         <div class="box-wrapper-start">
@@ -73,7 +73,7 @@
             {/each}
         </div>
     </div>
-    <div class="card skills-2">
+    <div class="card skills-2 flex-col-between">
         <div class="heading">BACK END</div>
         <br />
         <div class="box-wrapper-start">
@@ -84,7 +84,7 @@
             {/each}
         </div>
     </div>
-    <div class="card skills-3">
+    <div class="card skills-3 flex-col-between">
         <div class="heading">EXTRA SKILL</div>
         <br />
         <div class="box-wrapper-start">
