@@ -211,7 +211,12 @@
     .Intro-card {
         grid-area: 1 / 3 / 4 / 9;
         overflow: hidden;
+        background-image: url("https://raw.githubusercontent.com/abhiib02/PortfolioSvelte/main/static/logo2.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
+
     .work-card {
         grid-area: 4 / 1 / 7 / 3;
         @media (width < 992px) {
