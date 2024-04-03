@@ -1,6 +1,6 @@
 <form
     class="container"
-    action="https://formsubmit.co/abhiib02@gmail.com"
+    action="https://airform.io/abhiib02@gmail.com"
     method="POST"
 >
     <div class="card Contact flex-col-between">
