@@ -136,10 +136,11 @@
         left: 50%;
         translate: -50%;
         height: 60px;
-        background-color: var(--gray-color);
+        background-color: var(--gray-color-transparent);
         padding: 0.25rem;
         border-radius: calc(var(--in-brd-rad));
         z-index: 1000;
+        backdrop-filter:blur(10px);
         & ul {
             width: 100%;
             height: 100%;
