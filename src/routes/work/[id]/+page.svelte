@@ -42,7 +42,7 @@
                 ? 'container-github'
                 : 'container-no-github'}"
         >
-            <div class="card Project-icon">
+            <div class="card Project-icon  grid-center">
                 <div class="grid-center">
                     <img
                         src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Projects[
