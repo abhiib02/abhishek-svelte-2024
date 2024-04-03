@@ -6,6 +6,7 @@
  :root {
    --theme-color: #FF6B00;
    --gray-color: #585858;
+   --gray-color-transparent: #58585833;
    --bg: #000;
    --border-color: #333333;
    --rem: 16px;
