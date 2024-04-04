@@ -42,7 +42,7 @@
                 ? 'container-github'
                 : 'container-no-github'}"
         >
-            <div class="card Project-icon  grid-center">
+            <div class="card Project-icon grid-center">
                 <div class="grid-center">
                     <img
                         src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Projects[
@@ -62,6 +62,11 @@
                 {Projects[index].Type}
             </div>
             <div class="card Project-image">
+                <iframe
+                    src={Projects[index].Link}
+                    class="full-hd-iframe"
+                    frameborder="0"
+                ></iframe>
                 {#if !Projects[index].Image.includes("http")}
                     <img
                         loading="lazy"
@@ -167,9 +172,19 @@
         grid-area: Project-name;
     }
 
+    .full-hd-iframe {
+        width: 1920px; /* Full HD width */
+        height: 1080px; /* Full HD height */
+        position: absolute;
+        scale: 0.555;
+        transform-origin: 0 0;
+        border: none; /* Remove iframe border */
+    }
+
     .Project-image {
         grid-area: Project-image;
         overflow: hidden;
+        position: relative;
         padding: 0;
         background-image: var(--url);
         & img {
