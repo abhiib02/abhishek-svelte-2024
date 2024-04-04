@@ -168,8 +168,8 @@
  .box {
    display: grid;
    place-items: center;
-   height: clamp(20px, calc(100vw * 0.1), 88px);
-   width: clamp(20px, calc(100vw * 0.1), 88px);
+   height: clamp(10px, calc(100vw * 0.05), 88px);
+   width: clamp(10px, calc(100vw * 0.05), 88px);
    background: #111111;
    border: 1px solid var(--border-color);
    margin: calc((7 / 2) * 1px);
