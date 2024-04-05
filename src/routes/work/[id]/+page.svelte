@@ -63,6 +63,7 @@
             </div>
             <div class="card Project-image">
                 <iframe
+                    title={Projects[index].Name}
                     src={Projects[index].Link}
                     class="full-hd-iframe"
                     frameborder="0"
