@@ -9,10 +9,12 @@
         <div class="heading">Hello,</div>
         <div style="">
             <p class="desc">
-                I am Abhishek Bhardwaj A Tech enthusiast who want to know about
-                new technologies but fond of <span
-                    class="text-theme bold hue-rotate"
-                    style="--delay:1000;"
+                I am <span class="text-theme bold" style="--delay:1000;"
+                    >Abhishek Bhardwaj
+                </span>
+                A Tech enthusiast who want to know about new technologies but
+                fond of
+                <span class="text-theme bold hue-rotate" style="--delay:1000;"
                     >Website Designing and Development</span
                 >
                 I also carry

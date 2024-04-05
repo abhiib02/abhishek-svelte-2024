@@ -140,7 +140,7 @@
         padding: 0.25rem;
         border-radius: calc(var(--in-brd-rad));
         z-index: 1000;
-        backdrop-filter:blur(10px);
+        backdrop-filter: blur(10px);
         & ul {
             width: 100%;
             height: 100%;

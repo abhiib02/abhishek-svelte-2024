@@ -35,7 +35,7 @@
     </ul>
 </nav>
 
-<section>
+<section class="scale-up-center">
     <div class="bg">
         <div
             class="container-grid {Projects[index].Github
@@ -137,6 +137,9 @@
 </section>
 
 <style>
+    section {
+        height: 95vh;
+    }
     .container-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -174,12 +177,13 @@
     }
 
     .full-hd-iframe {
-        width: 1920px; /* Full HD width */
-        height: 1080px; /* Full HD height */
+        width: 180%;
+        height: 180%;
+        aspect-ratio: 16 / 9;
         position: absolute;
         scale: 0.555;
         transform-origin: 0 0;
-        border: none; /* Remove iframe border */
+        border: none;
     }
 
     .Project-image {
@@ -259,6 +263,21 @@
         }
         nav ul li {
             width: 100%;
+        }
+    }
+    .scale-up-center {
+        -webkit-animation: scale-up-center 0.4s
+            cubic-bezier(0.39, 0.575, 0.565, 1) both;
+        animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+    @keyframes scale-up-center {
+        0% {
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
         }
     }
 </style>

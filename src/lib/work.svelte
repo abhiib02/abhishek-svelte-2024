@@ -103,9 +103,16 @@
         transition: all 0.3s;
 
         &:hover {
-            background-color: var(--theme-color);
-            color: #000;
+            /*background-color: var(--theme-hover);*/
+
+            color: #fff;
             font-weight: bold;
+            background: linear-gradient(
+                90deg,
+                var(--theme-color) 0%,
+                var(--theme-color) var(--small-gap),
+                var(--bg) var(--small-gap)
+            );
         }
     }
     #workname {
