@@ -26,6 +26,9 @@
             image: "jquery.svg",
         },
         {
+            image: "vuejs.svg",
+        },
+        {
             image: "svelte.svg",
         },
         {
