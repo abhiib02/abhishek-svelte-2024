@@ -164,6 +164,12 @@
    padding: var(--main-padding);
    color: #fff;
  }
+.relative{
+  position: relative;
+}
+ .absolute{
+position: absolute;
+ }
 
  .no-padding {
    padding: 0 !important;

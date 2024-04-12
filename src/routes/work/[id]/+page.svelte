@@ -1,6 +1,6 @@
 <script>
     // @ts-nocheck
-
+    import { onMount } from "svelte";
     import { page } from "$app/stores";
     import Projects from "$lib/projects.json";
     import Logos from "$lib/techlogo.json";
@@ -15,6 +15,25 @@
             }
         });
     }
+
+    function frameLoader() {
+        // Query the elements
+        const iframeEle = document.getElementById("web-frame");
+        const loadingEle = document.getElementById("loading");
+        const Image = document.getElementById("pro-image");
+
+        iframeEle.addEventListener("load", function () {
+            // Hide the loading indicator
+            loadingEle.style.display = "none";
+            Image.style.display = "none";
+            // Bring the iframe back
+            iframeEle.style.opacity = 1;
+        });
+    }
+
+    onMount(() => {
+        frameLoader();
+    });
 </script>
 
 <nav>
@@ -61,21 +80,25 @@
                 <br />
                 {Projects[index].Type}
             </div>
-            <div class="card Project-image">
+            <div class="card Project-image relative">
+                <div id="loading" class="absolute"></div>
                 <iframe
                     title={Projects[index].Name}
                     src={Projects[index].Link}
                     class="full-hd-iframe"
                     frameborder="0"
+                    id="web-frame"
                 ></iframe>
                 {#if !Projects[index].Image.includes("http")}
                     <img
+                        id="pro-image"
                         loading="lazy"
                         src={"/images/" + Projects[index].Image}
                         alt={Projects[index].Name}
                     />
                 {:else}
                     <img
+                        id="pro-image"
                         loading="lazy"
                         src={Projects[index].Image}
                         alt={Projects[index].Name}
@@ -137,6 +160,15 @@
 </section>
 
 <style>
+    #loading {
+        width: 50px;
+        bottom: var(--gap);
+        left: var(--gap);
+        height: 50px;
+        background-size: contain;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect fill="%23FF6B00" stroke="%23FF6B00" stroke-width="15" width="30" height="30" x="25" y="50"><animate attributeName="y" calcMode="spline" dur="1" values="50;120;50;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></rect><rect fill="%23FF6B00" stroke="%23FF6B00" stroke-width="15" width="30" height="30" x="85" y="50"><animate attributeName="y" calcMode="spline" dur="1" values="50;120;50;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></rect><rect fill="%23FF6B00" stroke="%23FF6B00" stroke-width="15" width="30" height="30" x="145" y="50"><animate attributeName="y" calcMode="spline" dur="1" values="50;120;50;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></rect></svg>');
+        z-index: 1000;
+    }
     section {
         height: 95vh;
     }
