@@ -97,6 +97,7 @@
    margin: var(--main-padding);
    border-radius: calc(var(--brd-rad) + 10px);
    animation: inOutView linear both;
+   -moz-animation: none;
    animation-timeline: view();
    animation-range: entry 100% exit;
  }
