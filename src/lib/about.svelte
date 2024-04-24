@@ -11,16 +11,17 @@
             <p class="desc">
                 I am <span class="text-theme bold" style="--delay:1000;"
                     >Abhishek Bhardwaj
-                </span>
-                A Tech enthusiast who want to know about new technologies but
-                fond of
+                </span><br /><br />
+                A Tech enthusiast who want to know about new technologies but fond
+                of<br /><br />
                 <span class="text-theme bold hue-rotate" style="--delay:1000;"
                     >Website Designing and Development</span
-                >
+                ><br /><br />
                 I also carry
-                <span class="text-theme bold hue-rotate" style="--delay:2000;"
-                    >Photo shop</span
-                >
+                <br /><br /><span
+                    class="text-theme bold hue-rotate"
+                    style="--delay:2000;">Photo shop</span
+                >,
                 <span class="text-theme bold hue-rotate" style="--delay:3000;"
                     >Figma</span
                 >
@@ -32,25 +33,25 @@
         </div>
     </div>
     <div class="card About-desc hue-rotate flex-col-between">
-        <div class="heading">ABOUT PORTFOLIO</div>
+        <div class="heading">About Portfolio</div>
         <div class="desc">
-            I have made this portfolio for year 2024 . i have used
-            <span class="text-theme bold hue-rotate" style="--delay:5000;"
+            I have made this portfolio for year 2024 . i have used<br />
+            <br /><span class="text-theme bold hue-rotate" style="--delay:5000;"
                 >bento grid design</span
             >
             and
             <span class="text-theme bold hue-rotate" style="--delay:6000;"
                 >scroll panel effect</span
-            >
+            ><br /><br />
             for this portfolio to keep up with the trend as
             <span class="text-theme bold hue-rotate" style="--delay:7000;"
                 >2024</span
             >
-            started , i have seen lots of new designs emerged in 2024 and
-            <span class="text-theme bold hue-rotate" style="--delay:7000;"
+            started , i have seen lots of new designs emerged in 2024 and<br />
+            <br /><span class="text-theme bold hue-rotate" style="--delay:7000;"
                 >the most dominant design</span
-            > among all design is bento grid and that is why i used this design to
-            make my portfolio for 2024.
+            > <br /><br />among all design is bento grid and that is why i used
+            this design to make my portfolio for 2024.
         </div>
     </div>
     <div class="card About-image"></div>

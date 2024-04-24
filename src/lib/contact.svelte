@@ -41,7 +41,7 @@
             />
         </div>
     </div>
-    <button class="card form-submit btn-bg grid-center bg-theme">
+    <button class="card form-submit btn-bg grid-center">
         <div class="heading">Submit</div>
     </button>
 
@@ -152,26 +152,39 @@
 
     .github {
         grid-area: github;
+        background: linear-gradient(to right, #606c88, #3f4c6b);
     }
 
     .codepen {
         grid-area: codepen;
+        background: linear-gradient(to right, #666600, #999966);
     }
 
     .linkedin {
         grid-area: linkedin;
+        background: linear-gradient(to right, #56ccf2, #2f80ed);
     }
 
     .twitter {
         grid-area: twitter;
+        background: linear-gradient(to right, #000000, #434343);
     }
 
     .insta {
         grid-area: insta;
+        background: radial-gradient(
+            circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285aeb 90%
+        );
     }
 
     .resume {
         grid-area: resume;
+        background: linear-gradient(to right, #f2994a, #f2c94c);
     }
     .form-control {
         width: calc(100% - var(--main-padding));

@@ -98,6 +98,7 @@
         position: relative;
     }
     .project {
+        width: clamp(100px, 20%, 200px);
         flex-grow: 1;
         font-size: 1rem;
         transition: all 0.3s;
@@ -106,17 +107,18 @@
             /*background-color: var(--theme-hover);*/
 
             color: #fff;
-            font-weight: bold;
-            background: linear-gradient(
+            box-shadow: inset 0 var(--small-gap) 1px var(--theme-color);
+            /*background: linear-gradient(
                 90deg,
                 var(--theme-color) 0%,
                 var(--theme-color) var(--small-gap),
                 var(--bg) var(--small-gap)
-            );
+            );*/
         }
     }
     #workname {
         text-transform: capitalize;
+        text-align: center;
         @media (width < 992px) {
             display: none;
         }

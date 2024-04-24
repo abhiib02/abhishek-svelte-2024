@@ -65,9 +65,13 @@
         </div>
         <div class="heading">MY SKILLS</div>
     </div>
-    <div class="card skills-1 flex-col-between">
+    <div class="card skills-1 grid-center">
+        <div class="">
+            <img src="/icons/front-end.svg" class="icon" alt="" />
+        </div>
         <div class="heading">FRONT END</div>
-        <br />
+    </div>
+    <div class="card skills-1-1 flex-col-between">
         <div class="box-wrapper-start">
             {#each FrontEndlogos as logo}
                 <div class="box">
@@ -76,9 +80,13 @@
             {/each}
         </div>
     </div>
-    <div class="card skills-2 flex-col-between">
+    <div class="card skills-2 grid-center">
+        <div class="">
+            <img src="/icons/back-end.svg" class="icon" alt="" />
+        </div>
         <div class="heading">BACK END</div>
-        <br />
+    </div>
+    <div class="card skills-2-1 flex-col-between">
         <div class="box-wrapper-start">
             {#each BackEndlogos as logo}
                 <div class="box">
@@ -87,9 +95,13 @@
             {/each}
         </div>
     </div>
-    <div class="card skills-3 flex-col-between">
+    <div class="card skills-3 grid-center">
+        <div class="">
+            <img src="/icons/ext-skill.svg" class="icon" alt="" />
+        </div>
         <div class="heading">EXTRA SKILL</div>
-        <br />
+    </div>
+    <div class="card skills-3-1 flex-col-between">
         <div class="box-wrapper-start">
             {#each Other as logo}
                 <div class="box">
@@ -110,12 +122,12 @@
         gap: var(--small-gap);
         grid-auto-flow: row;
         grid-template-areas:
-            "skill skill skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1"
-            "skill skill skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1 skills-1"
-            "skill skill skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2"
-            "skill skill skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2 skills-2"
-            "skill skill skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3"
-            "skill skill skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3 skills-3";
+            "skill skill skills-1 skills-1 skills-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1"
+            "skill skill skills-1 skills-1 skills-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1 skills-1-1"
+            "skill skill skills-2 skills-2 skills-2 skills-2-1 skills-2-1 skills-2-1 skills-2-1 skills-2-1 skills-2-1 skills-2-1"
+            "skill skill skills-2 skills-2 skills-2 skills-2-1 skills-2-1 skills-2-1 skills-2-1 skills-2-1 skills-2-1 skills-2-1"
+            "skill skill skills-3 skills-3 skills-3 skills-3-1 skills-3-1 skills-3-1 skills-3-1 skills-3-1 skills-3-1 skills-3-1"
+            "skill skill skills-3 skills-3 skills-3 skills-3-1 skills-3-1 skills-3-1 skills-3-1 skills-3-1 skills-3-1 skills-3-1";
         @media (width < 992px) {
             display: flex;
             flex-direction: column;
@@ -136,5 +148,14 @@
 
     .skills-3 {
         grid-area: skills-3;
+    }
+    .skills-1-1 {
+        grid-area: skills-1-1;
+    }
+    .skills-2-1 {
+        grid-area: skills-2-1;
+    }
+    .skills-3-1 {
+        grid-area: skills-3-1;
     }
 </style>
