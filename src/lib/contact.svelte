@@ -80,7 +80,7 @@
     >
         <img src="../icons/insta.svg" alt="" class="icon" />
     </a>
-    <a target="https://mail.google.com/mail/u/0/?fs=1&to=abhiib02@gmail.com&tf=cm" href="" class="card resume grid-center box-icon">
+    <a target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&to=abhiib02@gmail.com&tf=cm" class="card resume grid-center box-icon">
         <img src="../icons/gmail.svg" alt="" class="icon" />
     </a>
     <div class="card Contact-desc grid-center">
