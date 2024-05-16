@@ -87,8 +87,8 @@
         <div style="text-align:center;">
             <div class="heading">Lets Get in Touch</div>
             <div class="desc">
-                I am always open to make new friends
-                Mail me @ <a href="mailto:abhiib02@gmail.com">abhiib02@gmail.com</a>
+                I am always open to make new friends <br>
+                Mail me @ <a class="text-theme bold" href="mailto:abhiib02@gmail.com">abhiib02@gmail.com</a>
             </div>
             
         </div>
