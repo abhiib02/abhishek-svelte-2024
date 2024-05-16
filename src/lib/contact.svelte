@@ -80,13 +80,17 @@
     >
         <img src="../icons/insta.svg" alt="" class="icon" />
     </a>
-    <a target="_blank" href="" class="card resume grid-center box-icon">
-        <img src="../icons/resume.svg" alt="" class="icon" />
+    <a target="https://mail.google.com/mail/u/0/?fs=1&to=abhiib02@gmail.com&tf=cm" href="" class="card resume grid-center box-icon">
+        <img src="../icons/gmail.svg" alt="" class="icon" />
     </a>
     <div class="card Contact-desc grid-center">
         <div style="text-align:center;">
             <div class="heading">Lets Get in Touch</div>
-            <div class="desc">I am always open to make new friends</div>
+            <div class="desc">
+                I am always open to make new friends
+                Mail me @ <a href="mailto:abhiib02@gmail.com">abhiib02@gmail.com</a>
+            </div>
+            
         </div>
     </div>
     <div class="card Footer grid-center">
