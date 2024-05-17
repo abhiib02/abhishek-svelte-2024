@@ -1,5 +1,20 @@
 [
    {
+      "Name": "https://name2brands.com/",
+      "Type": "A Digital Marketing and Social Media Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Image": "https://i.ibb.co/YfQ8D4b/image-1.webp",
+      "Link": "https://name2brands.com/",
+      "Status": "Online",
+      "Published": "May 2024",
+      "Info": "As a New Joinee this was my first assignment to redesign and revamped old site and optimize website for proper search engine optimization and other performance issues."
+   },
+   {
       "Name": "PortFolio 2023 - 2024",
       "Type": "2023 PortFolio",
       "Tech": [
