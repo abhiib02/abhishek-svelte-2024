@@ -1,5 +1,20 @@
 [
    {
+      "Name": "AM Films India",
+      "Type": "A Events and Film Production Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Image": "https://amfilmsindia.in/screenshot.webp",
+      "Link": "https://amfilmsindia.in/",
+      "Status": "Online",
+      "Published": "Jun 2024",
+      "Info": "AM Films is my third project while working in name2brands. as name2brands aman sir told me that am films is their special client so show your most creativity while staying performant so this project is combination of my creativeness and performant"
+   },
+   {
       "Name": "Name 2 brands",
       "Type": "A Digital Marketing and Social Media Company",
       "Tech": [
