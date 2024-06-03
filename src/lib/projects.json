@@ -8,6 +8,7 @@
          "js",
          "ci"
       ],
+      "Desc": "Am Films | A Events and Film Production Company",
       "Image": "https://amfilmsindia.in/screenshot.webp",
       "Link": "https://amfilmsindia.in/",
       "Status": "Online",
@@ -23,6 +24,7 @@
          "js",
          "ci"
       ],
+      "Desc": "",
       "Image": "https://i.ibb.co/SRcMJpr/image.webp",
       "Link": "https://name2brands.com/",
       "Status": "Online",
@@ -37,6 +39,7 @@
          "css",
          "svelte"
       ],
+      "Desc": "My Portfolio for 2024",
       "Image": "https://i.ibb.co/YfQ8D4b/image-1.webp",
       "Link": "https://bhardwaj-23.netlify.app/",
       "Status": "Online",
@@ -58,7 +61,7 @@
       "Link": "http://caravanindelhi.com/",
       "Status": "Online",
       "Published": "Mar 2024",
-      "Info": ""
+      "Info": "My Freelance project"
    },
    {
       "Name": "Dogra Human Helping Foundation",
@@ -74,7 +77,7 @@
       "Link": "https://dograhumanhelpingfoundation.com/",
       "Status": "Online",
       "Published": "Feb 2024",
-      "Info": ""
+      "Info": "Dogra Human helping foundation was ngo project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "On Toez Beverages",
@@ -90,7 +93,7 @@
       "Link": "https://ontoez.com/",
       "Status": "Offline",
       "Published": "Feb 2024",
-      "Info": ""
+      "Info": "On Toez Beverages was beverage seller project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Select Solar & Electronics",
@@ -106,7 +109,7 @@
       "Link": "https://selectse.com.au/",
       "Status": "Offline",
       "Published": "Oct 2023",
-      "Info": ""
+      "Info": "Select Solar & Electronics was solar panel dealer from australia this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Deploy OPTIQIQ",
@@ -122,7 +125,7 @@
       "Link": "https://deployoptiqiq.in/",
       "Status": "Offline",
       "Published": "Oct 2023",
-      "Info": ""
+      "Info": "Deploy OPTIQIQ was Career Consulting Company this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "GB GROUP",
@@ -137,7 +140,8 @@
       "Image": "https://i.ibb.co/qrb1CKy/image.webp",
       "Link": "https://gbgroup.com.in/",
       "Status": "Offline",
-      "Published": "Sep 2023"
+      "Published": "Sep 2023",
+      "info": "GB GROUP Multi Industry Company this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Yuva Kaushal Vikas Mandal",
@@ -154,7 +158,7 @@
       "Link": "https://ykvm.org.in/",
       "Status": "Offline",
       "Published": "Sep 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Boss Auto Hire",
@@ -170,7 +174,7 @@
       "Link": "https://bossautohire.com.au/",
       "Status": "Offline",
       "Published": "Sep 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Nxtway digital Studio",
@@ -186,7 +190,7 @@
       "Link": "https://nxtway.in/",
       "Status": "Offline",
       "Published": "Aug 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Wyrobo",
@@ -202,7 +206,7 @@
       "Link": "https://wyrobo.com/",
       "Status": "Offline",
       "Published": "Aug 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Cocoo Craft",
@@ -218,7 +222,7 @@
       "Link": "https://cocoocraft.com/?v=2",
       "Status": "Online",
       "Published": "Jul 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Gauragya Ayurvedic",
@@ -234,7 +238,7 @@
       "Link": "https://gauragyaayurvedic.com/",
       "Status": "Online",
       "Published": "Jun 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Yog Shiva",
@@ -250,7 +254,7 @@
       "Link": "https://yogiik.com",
       "Status": "Offline",
       "Published": "May 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "Singh And Singh",
@@ -265,7 +269,7 @@
       "Link": "https://singhnsingh.com/",
       "Status": "Offline",
       "Published": "May 2023",
-      "Info": ""
+      "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
       "Name": "NXTWAY startup",
@@ -281,7 +285,7 @@
       "Link": "https://nxtwaystartup.com/",
       "Status": "Offline",
       "Published": "Apr 2023",
-      "Info": ""
+      "Info": "As a New Joinee this was my first assignment to build site from scratch and optimize website for proper search engine optimization and other performance issues."
    },
    {
       "Name": "Voyagersbeat",

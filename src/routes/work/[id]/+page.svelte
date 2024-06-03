@@ -152,8 +152,9 @@
             <div class="card Project-desc">
                 <h1 class="heading">Information</h1>
                 <br />
-                {Projects[index].Desc}
                 {Projects[index].Info}
+                {Projects[index].Desc}
+                
             </div>
         </div>
     </div>
