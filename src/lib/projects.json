@@ -88,7 +88,7 @@
       "Desc": "A Caravan hire Website where customer will contact and send query to hire caravan",
       "Image": "http://caravanindelhi.com/capture.webp",
       "Link": "http://caravanindelhi.com/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "Mar 2024",
       "Info": "My Freelance project"
    },
@@ -104,7 +104,7 @@
       "Desc": "A NGO Website with Payment Gateway Integration and Generated certificate authenticity checker",
       "Image": "https://dograhumanhelpingfoundation.com/screenshot.webp",
       "Link": "https://dograhumanhelpingfoundation.com/",
-      "Status": "Offline",
+      "Status": "Online",
       "Published": "Feb 2024",
       "Info": "Dogra Human helping foundation was ngo project assigned to me while working in nxtwaystartup"
    },
@@ -301,7 +301,7 @@
       "Info": "this project assigned to me while working in nxtwaystartup"
    },
    {
-      "Name": "NXTWAY startup",
+      "Name": "nxtway startup",
       "Type": "A Website for compliance issues that small businesses and startups face",
       "Tech": [
          "html",
@@ -312,7 +312,7 @@
       "Desc": "A Website for compliance issues that small businesses and startups face",
       "Image": "https://i.ibb.co/4Wvdc5G/image.png",
       "Link": "https://nxtwaystartup.com/",
-      "Status": "Offline",
+      "Status": "Online",
       "Published": "Apr 2023",
       "Info": "As a New Joinee this was my first assignment to build site from scratch and optimize website for proper search engine optimization and other performance issues."
    },
@@ -540,7 +540,7 @@
       ],
       "Image": "wci.jpg",
       "Link": "https://www.woodcraftint.com/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "May 2019"
    },
    {
@@ -554,7 +554,7 @@
       ],
       "Image": "gyb.jpg",
       "Link": "https://offlinesites.netlify.app/gyb/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "May 2019",
       "Github": "https://github.com/abhiib02/demo_sites/tree/master/gyb"
    },
@@ -569,7 +569,7 @@
       ],
       "Image": "bsm.jpg",
       "Link": "https://offlinesites.netlify.app/backstage/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "April 2019",
       "Github": "https://github.com/abhiib02/demo_sites/tree/master/backstage"
    },
@@ -624,7 +624,7 @@
       ],
       "Image": "dynamo.jpg",
       "Link": "https://dynamohack.blogspot.com/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "Aug 2013"
    }
 ]
