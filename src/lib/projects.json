@@ -1,5 +1,34 @@
 [
    {
+      "Name": "Royal Star Entertainment",
+      "Type": "A Event management company ",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "Royal Star Entertainment | A Event management company for dance shows , tv , reality shows, promotion shooting",
+      "Image": "https://i.ibb.co/bvLcv4N/image-1.webp",
+      "Link": "https://royalstarsentertainment.in/",
+      "Status": "Online",
+      "Published": "Jul 2024",
+      "Info": "Royal Star Entertainment is my 10th project while working in name2brands."
+   },
+   {
+      "Name": "Orga Niche",
+      "Type": "A Salon Store where only organic beauty products used",
+      "Tech": [
+         "wordpress"
+      ],
+      "Desc": "Orga-Niché Stay Natural. Stay Classy",
+      "Image": "https://i.ibb.co/xzyZsvk/image.webp",
+      "Link": "https://orga-niche.co.in/",
+      "Status": "Online",
+      "Published": "Jul 2024",
+      "Info": "I used wordpress because they want a salon site with appointments and e-commerce with their products so easy and quick way to make a ecommerce website is to use woocommerce in wordpress"
+   },
+   {
       "Name": "AM Films India",
       "Type": "A Events and Film Production Company",
       "Tech": [
