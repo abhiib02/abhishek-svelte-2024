@@ -151,13 +151,12 @@
             </div>
             <div class="card Project-desc">
                 <h1 class="heading">Information</h1>
-                <br />
-                {Projects[index].Desc}
+                <p style="font-size: 1.5rem;font-weight: lighter;">{Projects[index].Desc}</p>
+                <br/>
                 <hr>
-                {Projects[index].Info}
-                
-                
-            </div>
+<br/>
+ <p style="font-size: 1.5rem;font-weight: lighter;"> {Projects[index].Info}</p>
+</div>
         </div>
     </div>
 </section>
