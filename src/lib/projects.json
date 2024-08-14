@@ -1,4 +1,20 @@
 [
+    {
+      "Name": "Travel n Tales",
+      "Type": "Travel Agency",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "Travel n Tales | A Travel agency which specialize in international honeymoon trip and packages",
+      "Image": "https://pasteboard.co/GDi1Bkdl7xJ9.webp",
+      "Link": "https://mytravelntales.in/",
+      "Status": "Online",
+      "Published": "Aug 2024",
+      "Info": "Travel n Tales is my 11th project while working in name2brands and 3rd Project for travel agency"
+   },
    {
       "Name": "Royal Star Entertainment",
       "Type": "A Event management company ",
