@@ -1,5 +1,21 @@
 [
     {
+      "Name": "Fame Craft",
+      "Type": "Influencer Agency",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Influencer Marketing Agency",
+      "Image": "https://pasteboard.co/vxC4892QU0yK.png",
+      "Link": "https://famecraft.in/",
+      "Status": "Online",
+      "Published": "Sep 2024",
+      "Info": "FameCraft is a Influencer Agency that helps to connect brands to influencers."
+   },
+    {
       "Name": "Travel n Tales",
       "Type": "Travel Agency",
       "Tech": [
