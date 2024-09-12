@@ -1,5 +1,22 @@
 [
     {
+      "Name": "Game of Perfume",
+      "Type": "A Perfume Manufacturer and Distributor",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci",
+        "wordpress",
+      ],
+      "Desc": "A Perfume Manufacturer and Distributor",
+      "Image": "https://i.ibb.co/0f9wrGy/image.webp",
+      "Link": "https://gameofperfumes.com/",
+      "Status": "Online",
+      "Published": "Sep 2024",
+      "Info": "Game of Perfumes is a online woocommerce website but a unique feature they want so i delivered that feature called as Perfume Bar where visitor can make their own perfumes using the combination of top,mid & Base Notes"
+   },
+    {
       "Name": "Fame Craft",
       "Type": "Influencer Agency",
       "Tech": [
