@@ -1,5 +1,21 @@
 [
     {
+      "Name": "Tuition Mantra",
+      "Type": "A Tutor Platorm",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci",
+      ],
+      "Desc": "A Tutor Platorm",
+      "Image": "https://i.ibb.co/tH2d1NV/tm.webp",
+      "Link": "https://tuitionmantra.in/",
+      "Status": "Online",
+      "Published": "Oct 2024",
+      "Info": "Game of Perfumes is a Lead Generation website for tutors"
+   },
+    {
       "Name": "Game of Perfume",
       "Type": "A Perfume Manufacturer and Distributor",
       "Tech": [
