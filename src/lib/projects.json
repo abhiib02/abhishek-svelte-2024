@@ -1,19 +1,35 @@
 [
     {
+      "Name": "GMAA Creations",
+      "Type": "A Online Scented Candle Store",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Desc": "A Online Scented Candle Store",
+      "Image": "https://i.ibb.co/RYtRwTs/image.webp",
+      "Link": "https://gmaacreations.com/",
+      "Status": "Online",
+      "Published": "Oct 2024",
+      "Info": "GMAA Creations is a online woocommerce website that sell scented candles"
+   },
+    {
       "Name": "Tuition Mantra",
       "Type": "A Tutor Platorm",
       "Tech": [
          "html",
          "css",
          "js",
-         "ci",
+         "ci"
       ],
       "Desc": "A Tutor Platorm",
       "Image": "https://i.ibb.co/tH2d1NV/tm.webp",
       "Link": "https://tuitionmantra.in/",
       "Status": "Online",
       "Published": "Oct 2024",
-      "Info": "Game of Perfumes is a Lead Generation website for tutors"
+      "Info": "Tuition Mantra is a Lead Generation website for tutors"
    },
     {
       "Name": "Game of Perfume",
