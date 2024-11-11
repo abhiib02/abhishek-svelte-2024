@@ -1,5 +1,21 @@
 [
     {
+      "Name": "B You",
+      "Type": "A Salon Cum Organic Beauty Product Store",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Desc": "A Salon Cum Organic Beauty Product Store",
+      "Image": "https://i.ibb.co/QP7T0xJ/image.png",
+      "Link": "https://byou24.com/",
+      "Status": "Online",
+      "Published": "Nov 2024",
+      "Info": "B You is a online Salon website that also sell Organic Beauty Products"
+   },
+    {
       "Name": "GMAA Creations",
       "Type": "A Online Scented Candle Store",
       "Tech": [
