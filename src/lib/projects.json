@@ -1,5 +1,21 @@
 [
     {
+      "Name": "JP Minda Group",
+      "Type": "India Leading Auto Component Manufacturing",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci4"
+      ],
+      "Desc": "India Leading Auto Component Manufacturing",
+      "Image": "https://i.ibb.co/t4CDBhH/image.png",
+      "Link": "https://jpmgroup.co.in/",
+      "Status": "Online",
+      "Published": "Nov 2024",
+      "Info": "JP Minda Group have been delivering custom-made OEM Business, Instrumentation, Automobiles and Automated Paint Shops"
+   },
+    {
       "Name": "B You",
       "Type": "A Salon Cum Organic Beauty Product Store",
       "Tech": [
