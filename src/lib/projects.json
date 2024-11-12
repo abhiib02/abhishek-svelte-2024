@@ -1,4 +1,20 @@
 [
+     {
+      "Name": "Vidya Planner",
+      "Type": "A College and Career Counselling Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci4"
+      ],
+      "Desc": "A College and Career Counselling Company",
+      "Image": "https://i.ibb.co/yBKv7rQ/image.png",
+      "Link": "https://vidyaplanner.com/",
+      "Status": "Online",
+      "Published": "Nov 2024",
+      "Info": "Vidya Planner is College and career Counselling Company which ties to 100+ College pan India"
+   },
     {
       "Name": "JP Minda Group",
       "Type": "India Leading Auto Component Manufacturing",
