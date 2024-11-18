@@ -48,7 +48,7 @@
    position: fixed;
    top: 0;
    left: 0;
-   filter: blur(50px) contrast(10);
+   filter: blur(50px) contrast(1);
    z-index: -1;
  }
 
