@@ -82,7 +82,7 @@
                 random(-7, 7),
                 random(-7, 7),
                 size,
-                `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`,
+                `rgb(${255}, ${107}, ${0})`,
             );
 
             balls.push(ball);
