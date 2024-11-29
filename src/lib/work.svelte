@@ -93,16 +93,18 @@
         width: 100%;
         grid-area: projects;
         display: flex;
+        align-content: flex-start;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: var(--small-gap);
         position: relative;
     }
     .project {
-        width: clamp(100px, 20%, 200px);
+        width:10%;
+        height: min-content;
         flex-grow: 1;
         font-size: 1rem;
         transition: all 0.3s;
-
         &:hover {
             /*background-color: var(--theme-hover);*/
 
