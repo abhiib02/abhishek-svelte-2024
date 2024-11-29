@@ -121,6 +121,7 @@
     #workname {
         text-transform: capitalize;
         text-align: center;
+        font-size: 0.5rem;
         @media (width < 992px) {
             display: none;
         }
