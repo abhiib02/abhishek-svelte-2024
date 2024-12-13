@@ -1,5 +1,21 @@
 [
      {
+      "Name": "Migrani Envirotech Engineers",
+      "Type": "A Water Treatment Company",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci4"
+      ],
+      "Desc": "A Water Treatment Company",
+      "Image": "https://i.ibb.co/ccLnRXF/image.webp",
+      "Link": "http://www.migrani.co.in/",
+      "Status": "Online",
+      "Published": "Dec 2024",
+      "Info": "MEEPL have a vast experience in field of Water & Environment engineering projects from concept to commissioning."
+   },
+     {
       "Name": "Vidya Planner",
       "Type": "A College and Career Counselling Company",
       "Tech": [
