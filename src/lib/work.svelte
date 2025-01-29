@@ -29,7 +29,7 @@
 </div>
 </div>
 
-<style "lang='scss'" >
+<style lang='scss'>
     .container {
         height: 100%;
         display: grid;
