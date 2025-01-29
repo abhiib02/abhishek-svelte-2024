@@ -12,18 +12,19 @@
         <div class="heading">MY WORK</div>
     </div>
 
-    <ul class="projects">
+    
+<table style="width: 100%;">
         {#each Projects as Project, index}
             {#if Project.Status == "Online"}
-                <li class="project-list">
-                    <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url={Project.Link}&amp;size=64" alt="" class="drop-shadow" width="32">
-                    <a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}"><span>{Project.Name.toLowerCase()}</span></a>
-                    <span>Currently {Project.Status == "Online" ? "Online" : "Offline"}</span>
-                    <span>Published in {Project.Published}</span>    
-                </li>
+                <tr class="project-list">
+                    <td><img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url={Project.Link}&amp;size=64" alt="" class="drop-shadow" width="32"></td>
+                    <td><a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}"><span>{Project.Name.toLowerCase()}</span></a></td>
+                    <td><span>Currently {Project.Status == "Online" ? "Online" : "Offline"}</span></td>
+                    <td><span>Published in {Project.Published}</span></td>
+                </tr>
             {/if}
         {/each}
-    </ul>
+    </table>
 </div>
 
 <style>
@@ -66,7 +67,10 @@
     justify-content:space-between;
     align-content:center;
     padding: 0.5rem;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff1;
+    color:#fff;
+ & > td{
+color:#fff;
 }
 .project {
         width:10%;
