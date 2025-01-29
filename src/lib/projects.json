@@ -1,4 +1,21 @@
 [
+
+     {
+      "Name": "Tarang Foundation",
+      "Type": "NGO",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "NGO",
+      "Image": "https://i.ibb.co/S73kh6wy/image-1.webp",
+      "Link": "https://tarangfoundation.com/",
+      "Status": "Online",
+      "Published": "Jan 2024",
+      "Info": "Tarang Foundation is a dedicated non-profit organization committed to creating lasting change in the lives of underprivileged communities."
+   },
      {
       "Name": "Sonit Life",
       "Type": "A Hydrogen Water Generator Seller",
@@ -13,6 +30,22 @@
       "Link": "https://sonitlife.com/",
       "Status": "Online",
       "Published": "Jan 2024",
+      "Info": "We lead the charge in health advancement through innovation. As pioneers in wellness technology, we craft cutting-edge hydrogen water generators designed to revolutionize your daily health routine with proven benefits."
+   },
+      {
+      "Name": "Admission Adda",
+      "Type": "A Education Consulting firm based in bihar",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Education Consulting firm based in bihar",
+      "Image": "https://i.ibb.co/R4gBTsFh/image.webp",
+      "Link": "https://admissionaadda.com/",
+      "Status": "Online",
+      "Published": "Dec 2024",
       "Info": "We lead the charge in health advancement through innovation. As pioneers in wellness technology, we craft cutting-edge hydrogen water generators designed to revolutionize your daily health routine with proven benefits."
    },
      {
