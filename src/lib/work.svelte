@@ -57,8 +57,6 @@
         width: 100%;
         height:100%;
         grid-area: projects;
-        display: flex;
-        flex-wrap: wrap;
         gap: var(--small-gap);
         position: relative;
         overflow:auto;
