@@ -12,54 +12,20 @@
         <div class="heading">MY WORK</div>
     </div>
 
-    <div class="projects">
+    <ul class="projects">
         {#each Projects as Project, index}
             {#if Project.Status == "Online"}
-                <a
-                    href="/work/{index}"
-                    class="card project grid-center"
-                    style="--url:url('{Project.Image}');--delay:{index}"
-                >
-                    <div class="grid-center">
-                        <img
-                            src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Project.Link}&size=64"
-                            alt=""
-                            class="drop-shadow"
-                            width="32"
-                        />
-
-                        <p id="workname">
-                            <br />{Project.Name.toLowerCase()}
-                        </p>
-                    </div>
-
-                    <!--
-                        
-                       
-                    <p>{Project.Name}</p>
-                        <div
-                        id="workname"
-                        class="flex-col-between"
-                        style="padding: var(--small-gap);"
-                    >
-                       
-                             <p>{Project.Name}</p>
-                            <div class="flex">
-                             <div
-                                class="status {Project.Status == 'Online'
-                                    ? 'success'
-                                    : 'danger'}"
-                            ></div>
-                            &nbsp;
-                            {Project.Status == "Online" ? "Online" : "Offline"}
-                            •&nbsp;
-                            {Project.Published}
-                        </div>
-                    </div>-->
-                </a>
+                <li>
+                    <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url={Project.Link}&amp;size=64" alt="" class="drop-shadow" width="32">
+                    <a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}">
+                    <span>{Project.Name.toLowerCase()}</span>
+                    <span>{Project.Status == "Online" ? "Online" : "Offline"}</span>
+                    <span>Published in {Project.Published}</span>
+                    </a>
+                </li>
             {/if}
         {/each}
-    </div>
+    </ul>
 </div>
 
 <style>
