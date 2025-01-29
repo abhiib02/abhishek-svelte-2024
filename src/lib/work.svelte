@@ -13,7 +13,7 @@
     </div>
 
 <div class="projects">    
-<table style="width: 100%;">
+<table style="width: 100%;border-collapse: collapse;">
         {#each Projects as Project, index}
             {#if Project.Status == "Online"}
                 <tr class="project-list">
