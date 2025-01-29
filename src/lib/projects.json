@@ -1,5 +1,21 @@
 [
      {
+      "Name": "Sonit Life",
+      "Type": "A Hydrogen Water Generator Seller",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Hydrogen Water Generator Seller",
+      "Image": "https://i.ibb.co/7xz3yWyb/image.png",
+      "Link": "https://sonitlife.com/",
+      "Status": "Online",
+      "Published": "Jan 2024",
+      "Info": "We lead the charge in health advancement through innovation. As pioneers in wellness technology, we craft cutting-edge hydrogen water generators designed to revolutionize your daily health routine with proven benefits."
+   },
+     {
       "Name": "Migrani Envirotech Engineers",
       "Type": "A Water Treatment Company",
       "Tech": [
