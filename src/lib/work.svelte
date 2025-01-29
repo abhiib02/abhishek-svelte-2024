@@ -65,7 +65,8 @@
     display:flex;
     justify-content:space-between;
     align-content:center;
-    
+    padding: 0.5rem;
+    border-bottom: 1px solid #fff;
 }
 .project {
         width:10%;
