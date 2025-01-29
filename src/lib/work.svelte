@@ -29,7 +29,7 @@
 </div>
 </div>
 
-<style lang='scss'>
+<style>
     .container {
         height: 100%;
         display: grid;
@@ -78,8 +78,8 @@
     padding: 0.5rem;
     border-bottom: 1px solid #fff1;
     color:#fff;
- td {color:#fff;}
- a {text-transform:capitalize; color:#fff;}
+ & > td {color:#fff;}
+ & > td > a {text-transform:capitalize; color:#fff;}
 }
 .project {
         width:10%;
