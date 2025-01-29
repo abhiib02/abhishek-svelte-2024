@@ -72,6 +72,7 @@
  & > td{
 color:#fff;
 }
+}
 .project {
         width:10%;
         height: min-content;
