@@ -12,7 +12,7 @@
         <div class="heading">MY WORK</div>
     </div>
 
-    
+<div class="projects">    
 <table style="width: 100%;">
         {#each Projects as Project, index}
             {#if Project.Status == "Online"}
@@ -25,6 +25,7 @@
             {/if}
         {/each}
     </table>
+</div>
 </div>
 
 <style>
