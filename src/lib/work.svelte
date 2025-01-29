@@ -15,13 +15,11 @@
     <ul class="projects">
         {#each Projects as Project, index}
             {#if Project.Status == "Online"}
-                <li>
+                <li class="project-list">
                     <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url={Project.Link}&amp;size=64" alt="" class="drop-shadow" width="32">
-                    <a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}">
-                    <span>{Project.Name.toLowerCase()}</span>
-                    <span>{Project.Status == "Online" ? "Online" : "Offline"}</span>
-                    <span>Published in {Project.Published}</span>
-                    </a>
+                    <a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}"><span>{Project.Name.toLowerCase()}</span></a>
+                    <span>Currently {Project.Status == "Online" ? "Online" : "Offline"}</span>
+                    <span>Published in {Project.Published}</span>    
                 </li>
             {/if}
         {/each}
@@ -57,15 +55,21 @@
 
     .projects {
         width: 100%;
+        height:100%;
         grid-area: projects;
         display: flex;
-        align-content: flex-start;
-        justify-content: space-between;
         flex-wrap: wrap;
         gap: var(--small-gap);
         position: relative;
+        overflow:auto;
     }
-    .project {
+.project-list{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    
+}
+.project {
         width:10%;
         height: min-content;
         flex-grow: 1;
