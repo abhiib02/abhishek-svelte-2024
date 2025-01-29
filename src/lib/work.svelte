@@ -64,14 +64,17 @@
         overflow:auto;
     }
 .project-list{
-    display:flex;
-    justify-content:space-between;
     align-content:center;
     padding: 0.5rem;
     border-bottom: 1px solid #fff1;
     color:#fff;
+
  & > td{
 color:#fff;
+    & > a{
+    text-transform:capitalize;
+    color:#fff;
+    }
 }
 }
 .project {
