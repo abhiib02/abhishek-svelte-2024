@@ -21,7 +21,7 @@
                         <td><a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}"><span>{Project.Name.toLowerCase()}</span></a></td>
                         <td><span>Currently {Project.Status == "Online" ? "Online" : "Offline"}</span></td>
                         <td><span>Published in {Project.Published}</span></td>
-                        <td><a class="list-btn"  href="/work/{index}">Open</a></td>
+                        <td><a href="/work/{index}">Open</a></td>
                     </tr>
                 {/if}
             {/each}
@@ -55,15 +55,6 @@
     .work {
         grid-area: work;
     }
-
-.list-btn{
-    padding-inline:1rem:
-    width:auto;
-    height:50px;
-    background-color: #FF6B00;
-    border: 1px solid #333333;
-    border-radius: 10px;
-}
     .projects {
         width: 100%;
         height:100%;
