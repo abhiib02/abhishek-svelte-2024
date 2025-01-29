@@ -62,6 +62,7 @@
         gap: var(--small-gap);
         position: relative;
         overflow:auto;
+        overscroll-behavior: auto;
     }
 .project-list{
     align-content:center;
