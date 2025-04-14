@@ -1,5 +1,68 @@
 [
-
+     {
+      "Name": "Vidhi Vidhanya",
+      "Type": "Religious",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Religious and Pilgrimage Service Provider",
+      "Image": "https://name2brands.com/images/portfolio/vidhividhanya.webp",
+      "Link": "http://vidhividhanya.com/",
+      "Status": "Online",
+      "Published": "Apr 2024",
+      "Info": "At Vidhi Vidhanya, we believe that every spiritual journey is personal and sacred. Whether it's finding peace in your space, clarity in your heart, or connection with something greater, we’re here to walk alongside you with trust, tradition, and care."
+   },
+     {
+      "Name": "Skill Orbit",
+      "Type": "Educational",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "A Education Consulting firm",
+      "Image": "https://name2brands.com/images/portfolio/skillorbit.webp",
+      "Link": "https://skill-orbit.in/",
+      "Status": "Online",
+      "Published": "Apr 2024",
+      "Info": "At Skill Orbit, our mission is to provide the best online tuition classes that inspire young minds and empower talented female educators."
+   },
+     {
+      "Name": "JPM Industries",
+      "Type": "e-commerce",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "wordpress"
+      ],
+      "Desc": "A Electronics Manufacturer and Seller",
+      "Image": "https://name2brands.com/images/portfolio/jpmi.jpg",
+      "Link": "https://jpmindustries.in/",
+      "Status": "Online",
+      "Published": "Mar 2024",
+      "Info": "A Electronics Manufacturer and Seller"
+   },
+     {
+      "Name": "Shakti Foundation",
+      "Type": "NGO",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "NGO",
+      "Image": "https://name2brands.com/images/portfolio/shakti.webp",
+      "Link": "https://shakti.tarangfoundation.com/",
+      "Status": "Online",
+      "Published": "Feb 2024",
+      "Info": "Shakti Foundation is a dedicated non-profit organization committed to creating lasting change in the lives of underprivileged Womans."
+   },
      {
       "Name": "Tarang Foundation",
       "Type": "NGO",
@@ -298,7 +361,7 @@
       "Desc": "A NGO Website with Payment Gateway Integration and Generated certificate authenticity checker",
       "Image": "https://dograhumanhelpingfoundation.com/screenshot.webp",
       "Link": "https://dograhumanhelpingfoundation.com/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "Feb 2024",
       "Info": "Dogra Human helping foundation was ngo project assigned to me while working in nxtwaystartup"
    },
@@ -314,7 +377,7 @@
       "Desc": "A Ecommerce Website for Energy Drinks Product Manufacturer",
       "Image": "https://ontoez.com/screenshot.webp",
       "Link": "https://ontoez.com/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "Feb 2024",
       "Info": "On Toez Beverages was beverage seller project assigned to me while working in nxtwaystartup"
    },
@@ -362,7 +425,7 @@
       "Desc": "Multi Industry Company",
       "Image": "https://i.ibb.co/qrb1CKy/image.webp",
       "Link": "https://gbgroup.com.in/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "Sep 2023",
       "info": "GB GROUP Multi Industry Company this project assigned to me while working in nxtwaystartup"
    },
@@ -579,7 +642,7 @@
       ],
       "Image": "daikichi.png",
       "Link": "https://daikichiconsulting.com/",
-      "Status": "Online",
+      "Status": "Offline",
       "Published": "Jan 2021"
    },
    {
