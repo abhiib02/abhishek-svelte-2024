@@ -1,4 +1,20 @@
 [
+   {
+      "Name": "Voyagersbeat.in",
+      "Type": "Travel Agency",
+      "Tech": [
+         "html",
+         "css",
+         "js",
+         "ci"
+      ],
+      "Desc": "api version travel packages catalog by Voyagersbeat.com content managed from Voyagersbeat.com",
+      "Image": "https://i.postimg.cc/g21B8RHM/image.png",
+      "Link": "https://voyagersbeat.in/",
+      "Status": "Online",
+      "Published": "May 2025",
+      "Info": "VoyagerBeat.in is a dynamic travel package catalog website built using HTML, CSS, JavaScript, and the CodeIgniter 4 (CI4) framework. It fetches real-time travel package data via APIs from VoyagersBeat.com, where all content is centrally managed through their backend dashboard. The frontend is lightweight, responsive, and API-driven for seamless updates and performance."
+   },
      {
       "Name": "Vidhi Vidhanya",
       "Type": "Religious",
