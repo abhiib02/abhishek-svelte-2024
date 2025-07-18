@@ -38,9 +38,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--theme-color);
 }
-html{
-   scroll-behavior: smooth;
-}
+
  body {
    background: #000;
    font-size: calc(var(--rem));
