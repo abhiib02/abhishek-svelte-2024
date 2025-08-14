@@ -12,20 +12,53 @@
         <div class="heading">MY WORK</div>
     </div>
 
-    <div class="projects">    
-        <table style="width: 100%;border-collapse: collapse;">
-            {#each Projects as Project, index}
-                {#if Project.Status == "Online"}
-                    <tr class="project-list">
-                        <td><img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url={Project.Link}&amp;size=64" alt="" class="drop-shadow" width="32"></td>
-                        <td><a href="/work/{index}" class="" style="--url:url('{Project.Image}');--delay:{index}"><span>{Project.Name.toLowerCase()}</span></a></td>
-                        <td><span>Currently {Project.Status == "Online" ? "Online" : "Offline"}</span></td>
-                        <td><span>Published in {Project.Published}</span></td>
-                        <td><a href="/work/{index}">Open</a></td>
-                    </tr>
-                {/if}
-            {/each}
-        </table>
+    <div class="projects">
+        {#each Projects as Project, index}
+            {#if Project.Status == "Online"}
+                <a
+                    href="/work/{index}"
+                    class="card project grid-center"
+                    style="--url:url('{Project.Image}');--delay:{index}"
+                >
+                    <div class="grid-center">
+                        <img
+                            src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url={Project.Link}&size=64"
+                            alt=""
+                            class="drop-shadow"
+                            width="32"
+                        />
+
+                        <p id="workname">
+                            <br />{Project.Name.toLowerCase()}
+                        </p>
+                    </div>
+
+                    <!--
+                        
+                       
+                    <p>{Project.Name}</p>
+                        <div
+                        id="workname"
+                        class="flex-col-between"
+                        style="padding: var(--small-gap);"
+                    >
+                       
+                             <p>{Project.Name}</p>
+                            <div class="flex">
+                             <div
+                                class="status {Project.Status == 'Online'
+                                    ? 'success'
+                                    : 'danger'}"
+                            ></div>
+                            &nbsp;
+                            {Project.Status == "Online" ? "Online" : "Offline"}
+                            •&nbsp;
+                            {Project.Published}
+                        </div>
+                    </div>-->
+                </a>
+            {/if}
+        {/each}
     </div>
 </div>
 
@@ -55,33 +88,21 @@
     .work {
         grid-area: work;
     }
+
     .projects {
         width: 100%;
-        height:100%;
         grid-area: projects;
+        display: flex;
+        flex-wrap: wrap;
         gap: var(--small-gap);
         position: relative;
-        overflow:auto;
-        overscroll-behavior: auto;
     }
-.project-list{
-    align-content:center;
-    padding: 0.5rem;
-    border-bottom: 1px solid #fff1;
-    color:#fff;
-     & td {
-        color:#fff;
-        & a {
-            text-transform:capitalize; color:#fff;
-        }
-    }
-}
-.project {
-        width:10%;
-        height: min-content;
+    .project {
+        width: clamp(100px, 20%, 200px);
         flex-grow: 1;
         font-size: 1rem;
         transition: all 0.3s;
+
         &:hover {
             /*background-color: var(--theme-hover);*/
 
@@ -98,7 +119,6 @@
     #workname {
         text-transform: capitalize;
         text-align: center;
-        font-size: 0.5rem;
         @media (width < 992px) {
             display: none;
         }
