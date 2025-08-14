@@ -13,7 +13,7 @@
       "Link": "https://ems.voyagersbeat.com/",
       "Status": "Online",
       "Published": "August 2025",
-      "Info": "A web-based Employee Management System (EMS) developed using CodeIgniter 4 (PHP) and integrated with a MySQL database. The platform is designed to streamline HR and administrative workflows by centralizing employee information, attendance, leave requests, and performance tracking into a single, intuitive interface."
+      "Info": "A web-based Employee Management System (EMS) developed using CodeIgniter 4 (PHP) and integrated with a MySQL database. The platform is designed to streamline HR and administrative workflows by centralizing employee information, attendance, leave requests, and intuitive interface."
    },
    {
       "Name": "Voyagersbeat.in",
@@ -917,4 +917,5 @@
       "Published": "Aug 2013"
    }
 ]
+
 
